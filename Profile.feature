@@ -10,7 +10,7 @@ Feature: Profile Management
 		And select a new picture
 		Then I see a new picture displayed as profile picture
 		
-	Scenario: Updating Diplay Name
+	Scenario: Updating Display Name
 		Given I am on the profile screen
 		When I click on the edit button icon beside the display name
 		And I type a new display name
